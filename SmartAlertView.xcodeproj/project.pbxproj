@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* SmartAlertViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SmartAlertViewAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* SmartAlertViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* SmartAlertViewViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* SmartAlertViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SmartAlertViewViewController.m */; };
+		47B4DB15108A126000E54DE9 /* SmartAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B4DB0E108A126000E54DE9 /* SmartAlertView.m */; };
+		47B4DB16108A126000E54DE9 /* TableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B4DB10108A126000E54DE9 /* TableController.m */; };
+		47B4DB17108A126000E54DE9 /* TextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B4DB12108A126000E54DE9 /* TextFieldController.m */; };
+		47B4DB18108A126000E54DE9 /* ColorSelectorUIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B4DB14108A126000E54DE9 /* ColorSelectorUIImage.m */; };
+		47B4DB7B108A16CF00E54DE9 /* top.png in Resources */ = {isa = PBXBuildFile; fileRef = 47B4DB7A108A16CF00E54DE9 /* top.png */; };
+		47B4DB80108A16D900E54DE9 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 47B4DB7F108A16D900E54DE9 /* down.png */; };
+		47B4DBAB108A17E000E54DE9 /* color_c.png in Resources */ = {isa = PBXBuildFile; fileRef = 47B4DBAA108A17E000E54DE9 /* color_c.png */; };
+		47B4DBB1108A17F700E54DE9 /* aim.png in Resources */ = {isa = PBXBuildFile; fileRef = 47B4DBB0108A17F700E54DE9 /* aim.png */; };
+		47B4DDB9108A3E0C00E54DE9 /* gogreen_iphone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47B4DDB8108A3E0C00E54DE9 /* gogreen_iphone.jpg */; };
+		47B4DDE8108A411C00E54DE9 /* poof_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 47B4DDE2108A411C00E54DE9 /* poof_2.png */; };
+		47B4DDE9108A411C00E54DE9 /* poof_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 47B4DDE3108A411C00E54DE9 /* poof_5.png */; };
+		47B4DDEA108A411C00E54DE9 /* poof_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 47B4DDE4108A411C00E54DE9 /* poof_3.png */; };
+		47B4DDEB108A411C00E54DE9 /* Poof.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B4DDE5108A411C00E54DE9 /* Poof.m */; };
+		47B4DDEC108A411C00E54DE9 /* poof_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 47B4DDE6108A411C00E54DE9 /* poof_4.png */; };
+		47B4DDED108A411C00E54DE9 /* poof_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 47B4DDE7108A411C00E54DE9 /* poof_1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SmartAlertViewAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartAlertViewAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SmartAlertViewAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartAlertViewAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SmartAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* SmartAlertViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SmartAlertViewViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* SmartAlertViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartAlertViewViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* SmartAlertViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartAlertViewViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SmartAlertView_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartAlertView_Prefix.pch; sourceTree = "<group>"; };
+		47B4DB0C108A126000E54DE9 /* SmartAlertViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartAlertViewData.h; sourceTree = "<group>"; };
+		47B4DB0D108A126000E54DE9 /* SmartAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartAlertView.h; sourceTree = "<group>"; };
+		47B4DB0E108A126000E54DE9 /* SmartAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartAlertView.m; sourceTree = "<group>"; };
+		47B4DB0F108A126000E54DE9 /* TableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableController.h; sourceTree = "<group>"; };
+		47B4DB10108A126000E54DE9 /* TableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableController.m; sourceTree = "<group>"; };
+		47B4DB11108A126000E54DE9 /* TextFieldController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldController.h; sourceTree = "<group>"; };
+		47B4DB12108A126000E54DE9 /* TextFieldController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldController.m; sourceTree = "<group>"; };
+		47B4DB13108A126000E54DE9 /* ColorSelectorUIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorSelectorUIImage.h; sourceTree = "<group>"; };
+		47B4DB14108A126000E54DE9 /* ColorSelectorUIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorSelectorUIImage.m; sourceTree = "<group>"; };
+		47B4DB7A108A16CF00E54DE9 /* top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = top.png; sourceTree = "<group>"; };
+		47B4DB7F108A16D900E54DE9 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		47B4DBAA108A17E000E54DE9 /* color_c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_c.png; sourceTree = "<group>"; };
+		47B4DBB0108A17F700E54DE9 /* aim.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aim.png; sourceTree = "<group>"; };
+		47B4DDB8108A3E0C00E54DE9 /* gogreen_iphone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gogreen_iphone.jpg; sourceTree = "<group>"; };
+		47B4DDE1108A411C00E54DE9 /* Poof.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Poof.h; sourceTree = "<group>"; };
+		47B4DDE2108A411C00E54DE9 /* poof_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poof_2.png; sourceTree = "<group>"; };
+		47B4DDE3108A411C00E54DE9 /* poof_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poof_5.png; sourceTree = "<group>"; };
+		47B4DDE4108A411C00E54DE9 /* poof_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poof_3.png; sourceTree = "<group>"; };
+		47B4DDE5108A411C00E54DE9 /* Poof.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Poof.m; sourceTree = "<group>"; };
+		47B4DDE6108A411C00E54DE9 /* poof_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poof_4.png; sourceTree = "<group>"; };
+		47B4DDE7108A411C00E54DE9 /* poof_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poof_1.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SmartAlertView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SmartAlertView-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* SmartAlertViewAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SmartAlertViewAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* SmartAlertViewViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* SmartAlertViewViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SmartAlertView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				47B4DDDC108A410600E54DE9 /* Poof */,
+				47B4DB0B108A126000E54DE9 /* SmartAllert */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* SmartAlertView_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				47B4DDB8108A3E0C00E54DE9 /* gogreen_iphone.jpg */,
+				2899E5210DE3E06400AC0155 /* SmartAlertViewViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* SmartAlertView-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47B4DB0B108A126000E54DE9 /* SmartAllert */ = {
+			isa = PBXGroup;
+			children = (
+				47B4DBAA108A17E000E54DE9 /* color_c.png */,
+				47B4DBB0108A17F700E54DE9 /* aim.png */,
+				47B4DB7A108A16CF00E54DE9 /* top.png */,
+				47B4DB7F108A16D900E54DE9 /* down.png */,
+				47B4DB0C108A126000E54DE9 /* SmartAlertViewData.h */,
+				47B4DB0D108A126000E54DE9 /* SmartAlertView.h */,
+				47B4DB0E108A126000E54DE9 /* SmartAlertView.m */,
+				47B4DB0F108A126000E54DE9 /* TableController.h */,
+				47B4DB10108A126000E54DE9 /* TableController.m */,
+				47B4DB11108A126000E54DE9 /* TextFieldController.h */,
+				47B4DB12108A126000E54DE9 /* TextFieldController.m */,
+				47B4DB13108A126000E54DE9 /* ColorSelectorUIImage.h */,
+				47B4DB14108A126000E54DE9 /* ColorSelectorUIImage.m */,
+			);
+			name = SmartAllert;
+			sourceTree = "<group>";
+		};
+		47B4DDDC108A410600E54DE9 /* Poof */ = {
+			isa = PBXGroup;
+			children = (
+				47B4DDE1108A411C00E54DE9 /* Poof.h */,
+				47B4DDE5108A411C00E54DE9 /* Poof.m */,
+				47B4DDE2108A411C00E54DE9 /* poof_2.png */,
+				47B4DDE3108A411C00E54DE9 /* poof_5.png */,
+				47B4DDE4108A411C00E54DE9 /* poof_3.png */,
+				47B4DDE6108A411C00E54DE9 /* poof_4.png */,
+				47B4DDE7108A411C00E54DE9 /* poof_1.png */,
+			);
+			name = Poof;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SmartAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SmartAlertView" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartAlertView;
+			productName = SmartAlertView;
+			productReference = 1D6058910D05DD3D006BFB54 /* SmartAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SmartAlertView" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SmartAlertView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* SmartAlertViewViewController.xib in Resources */,
+				47B4DB7B108A16CF00E54DE9 /* top.png in Resources */,
+				47B4DB80108A16D900E54DE9 /* down.png in Resources */,
+				47B4DBAB108A17E000E54DE9 /* color_c.png in Resources */,
+				47B4DBB1108A17F700E54DE9 /* aim.png in Resources */,
+				47B4DDB9108A3E0C00E54DE9 /* gogreen_iphone.jpg in Resources */,
+				47B4DDE8108A411C00E54DE9 /* poof_2.png in Resources */,
+				47B4DDE9108A411C00E54DE9 /* poof_5.png in Resources */,
+				47B4DDEA108A411C00E54DE9 /* poof_3.png in Resources */,
+				47B4DDEC108A411C00E54DE9 /* poof_4.png in Resources */,
+				47B4DDED108A411C00E54DE9 /* poof_1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SmartAlertViewAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* SmartAlertViewViewController.m in Sources */,
+				47B4DB15108A126000E54DE9 /* SmartAlertView.m in Sources */,
+				47B4DB16108A126000E54DE9 /* TableController.m in Sources */,
+				47B4DB17108A126000E54DE9 /* TextFieldController.m in Sources */,
+				47B4DB18108A126000E54DE9 /* ColorSelectorUIImage.m in Sources */,
+				47B4DDEB108A411C00E54DE9 /* Poof.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SmartAlertView_Prefix.pch;
+				INFOPLIST_FILE = "SmartAlertView-Info.plist";
+				PRODUCT_NAME = SmartAlertView;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SmartAlertView_Prefix.pch;
+				INFOPLIST_FILE = "SmartAlertView-Info.plist";
+				PRODUCT_NAME = SmartAlertView;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SmartAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SmartAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
