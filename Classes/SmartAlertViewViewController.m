@@ -24,6 +24,9 @@
 	[countriesName release];
 }
 //deletit
+
+//master
+/////
 -(void)SetCountryName:(NSString*)name {
 	if(nil != name)
 		countryLabel_.text = name;
