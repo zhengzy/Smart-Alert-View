@@ -23,7 +23,7 @@
 	[SmartAlertView ShowTable:@"Выберете страну" WithItems:countriesName WithTarget:self andAction:@selector(SetCountryName:)];
 	[countriesName release];
 }
-
+//deletit
 -(void)SetCountryName:(NSString*)name {
 	if(nil != name)
 		countryLabel_.text = name;
